@@ -1,4 +1,4 @@
-# MySyncTalk/inference.py
+# MySyncTalk/inference.py 模型推理核心
 
 def run_inference(audio_path, output_dir):
     """
