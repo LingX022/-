@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
+# 负责接收前端请求，把数据传给backend/*.py里的核心逻辑（视频生成、模型训练、对话处理）
 from backend.video_generator import generate_video
 from backend.model_trainer import train_model
 from backend.chat_engine import chat_response
@@ -7,6 +8,7 @@ from backend.chat_engine import chat_response
 app = Flask(__name__)
 
 # 首页
+# 路由-访问 / 时会调用 index() 函数。返回 templates/index.html 页面
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -87,3 +89,4 @@ def save_audio():
 
 if __name__ == '__main__':
     app.run(debug=True, port = 5001)
+
