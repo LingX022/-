@@ -4,8 +4,6 @@
 **成员：周苓萱**
 **任务类型：语音克隆模块工程封装与推理验证**
 
----
-
 ## 1. 项目简介
 
 本项目基于 **OpenVoice V2** 实现中文语音克隆（Voice Cloning）任务。
@@ -315,3 +313,4 @@ conda install -c conda-forge ffmpeg
 3. 将 `bin` 目录加入系统 PATH
 
 ---
+
