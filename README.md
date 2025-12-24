@@ -1,9 +1,7 @@
 # SyncTalk Voice Cloning Demo
 
 **第 20 组（个人）**
-
 **周苓萱成员**
-
 **语音克隆模块项目提交**
 
 
@@ -316,5 +314,6 @@ conda install -c conda-forge ffmpeg
 3. 将 `bin` 目录加入系统 PATH
 
 ---
+
 
 
