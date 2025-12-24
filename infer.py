@@ -1,4 +1,9 @@
-# infer.py
+# 禁止任何 HuggingFace 运行时联网
+import os
+
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 import argparse
 import os
 import sys
